@@ -15,13 +15,13 @@ public class Main{
     public static void main(String[] args){
         /***input***/
         Scanner keyboard= new Scanner(System.in);
-        System.out.println("please enter the number of disks in the program");
+        System.out.println("please enter the number of disks in the program:");
         int n=keyboard.nextInt();
         char start='A',end='C',temp='B';
 
-        System.out.println("the moves you need to make are");
+        System.out.println("the moves you need to make are:");
         solve_hanoi(n,start,end,temp);
-        System.out.print("end of program");
+        System.out.print("end of program ;)");
 
     }
 
