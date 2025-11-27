@@ -32,8 +32,8 @@ public class Main{
 
     /**
      * Description: solves the tower of hanoi recursivly and keeps performing the nessesary calculations needed,
-      it does using the number of disks and the 3 pegs. It moves the disks one disk at a time adjusting the start and end points,
-      using them like references at each stage. so at one stage the start is A and the end is C but another(aka n-1 will start at the temp and move it to the next "destination") till all disks are at the desited end.
+      it uses the number of disks and 3 pegs. It moves the disks one disk at a time adjusting the start and end points,
+      using them like references at each stage. so at one stage the start is A and the end is C but another (aka n-1 will start at the temp and move it to the next "destination") till all disks are at the desired end.
      * precondition: needs to be called from the main method
      * postcondition: sprints out all the moves
      * param n the number of disks in the tower
